@@ -6,7 +6,7 @@ using UnityEngine;
 public class ChangeColorOnCollision : MonoBehaviour
 {
     [SerializeField] // SerializeField exposes 'changeColorTo' in the editor.
-    private Color changeColorTo = Color.white;
+    private Color changeColorTo = Color.green;
 
     private void OnCollisionEnter()
     {
